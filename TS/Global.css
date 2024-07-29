@@ -1,0 +1,67 @@
+html {
+    background-color: #FFDFD6;
+}
+
+#header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #E3A5C7;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: solid;
+    margin: 2px;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: black;
+    text-indent: 15px;
+    padding: 5px;
+    background-color: #ECFDF1;
+}
+
+#articulos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    background-color: #FEE7E6;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: auto;
+
+    height: auto;
+
+    object-fit: cover;
+
+}
+
+.producto h3 {
+    font-weight: bold;
+
+    margin-top: 10px;
+
+}
+
+.producto p {
+    font-size: 16px;
+
+    color: #666;
+
+}
